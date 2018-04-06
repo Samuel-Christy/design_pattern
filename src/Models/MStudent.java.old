@@ -1,0 +1,20 @@
+package Models;
+
+public class MStudent extends MUser {
+
+	public MStudent(String name, MRole role) {
+		super(name, role);
+		// TODO Auto-generated constructor stub
+	}
+
+	public MStudent(boolean stored, int id, String name, MRole role) {
+		super(stored, id, name, role);
+		// TODO Auto-generated constructor stub
+	}
+
+	public MStudent(MUser user) {
+		super(user);
+		// TODO Auto-generated constructor stub
+	}
+
+}

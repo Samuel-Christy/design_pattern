@@ -1,0 +1,20 @@
+package Models;
+
+public class MTeacher extends MUser {
+
+	public MTeacher(boolean stored, int id, String name, MRole role) {
+		super(stored, id, name, role);
+		// TODO Auto-generated constructor stub
+	}
+
+	public MTeacher(MUser user) {
+		super(user);
+		// TODO Auto-generated constructor stub
+	}
+
+	public MTeacher(String name, MRole role) {
+		super(name, role);
+		// TODO Auto-generated constructor stub
+	}
+
+}
